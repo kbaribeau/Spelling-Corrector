@@ -8,6 +8,10 @@ import java.util.Set;
 import java.util.StringTokenizer;
 
 
+//This started when @damaneice asked for a code review.  Most of this code is still his.
+//All I've done is a little refactoring.
+//If I can get my act together I'll try and refactor it until it's as concise as Norvig's
+//python implementation
 public class SpellingCorrector {
 	private static final String alphabet = "abcdefghijklmnopqrstuvwxyz";
 	private Map<String,Integer> languageModel = new HashMap<String,Integer>();
